@@ -21,6 +21,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <link rel="import" href="../../iron-demo-helpers/demo-snippet.html">
     <link rel="import" href="../../iron-demo-helpers/demo-pages-shared-styles.html">
     <link rel="import" href="../paper-swatch-picker.html">
+    <link rel="import" href="../paper-swatch-picker-content.html">
 
     <!-- Ensure Web Animations polyfill is loaded since neon-animation 2.0 doesn't import it -->
     <link rel="import" href="../../neon-animation/web-animations.html">
@@ -64,6 +65,13 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             </style>
           </custom-style>
           <paper-swatch-picker class="fancy"></paper-swatch-picker>
+        </template>
+      </demo-snippet>
+
+      <h3>Picker only without overlay</h3>
+      <demo-snippet class="centered-demo">
+        <template>
+          <paper-swatch-picker-content></paper-swatch-picker-content>
         </template>
       </demo-snippet>
     </div>
