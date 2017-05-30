@@ -124,7 +124,6 @@ Custom property | Description | Default
       },
 
       listeners: {
-        'paper-dropdown-open': '_onOpen',
         'iron-select': '_onColorTap'
       },
 
@@ -141,8 +140,7 @@ Custom property | Description | Default
          */
         color: {
           type: String,
-          notify: true,
-          observer: '_colorChanged'
+          notify: true
         },
 
         /**
